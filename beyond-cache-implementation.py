@@ -1,4 +1,4 @@
-# beyond_cache_ui.py - Complete E-Commerce System with Redis Backend
+# beyond-cache-ui.py - Complete E-Commerce System with Redis Backend
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
 from redis import Redis
