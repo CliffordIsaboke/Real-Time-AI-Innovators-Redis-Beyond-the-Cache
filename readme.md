@@ -110,11 +110,6 @@ Search by Query:
 
 Shows a list of matching documents with their titles, content previews, and relevance score.
 
-# Folder Structure
-
-├── beyond_cache_ui.py        # E-Commerce System UI and Logic
-├── ai_recommendation_ui.py   # AI Recommendation Engine UI and Logic
-└── README.md                 # Project Documentation
 
 # Troubleshooting
 # Redis Connection Issues:
