@@ -2,7 +2,7 @@ E-Commerce System with Redis and AI Recommendation Engine
 This repository contains two Python projects: an E-Commerce System and an AI Recommendation Engine, both powered by Redis for data storage and querying.
 
 ## Projects Overview
-# 1. E-Commerce System (beyond-cache-ui.py)
+# 1. E-Commerce System (beyond-cache-implementation.py)
 This is a simple, scalable, and interactive e-commerce system built using Python's Tkinter for the UI and Redis for backend storage. It supports:
 
 - Product Management: View, add, search, and manage products in the store.
@@ -13,7 +13,7 @@ This is a simple, scalable, and interactive e-commerce system built using Python
 
 - Integration with Redis for storing product information and order data.
 
-# 2. AI Recommendation Engine (ai-recommendation-ui.py)
+# 2. AI Recommendation Engine (real-time-ai-innovators.py)
 This project demonstrates the use of AI-powered recommendation systems, integrating Redis for vector storage and querying. It uses the Sentence-Transformers model to generate embeddings for text data and provides:
 
 - Query-based search: Enter a query and receive recommendations based on content similarity.
