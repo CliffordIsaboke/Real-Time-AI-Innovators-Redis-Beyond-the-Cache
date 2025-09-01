@@ -107,7 +107,7 @@ Search by Query:
 ## Troubleshooting
 # Redis Connection Issues:
 
-If you encounter connection issues with Redis, ensure the Redis container is running:
+- If you encounter connection issues with Redis, ensure the Redis container is running:
 
 
 docker ps
