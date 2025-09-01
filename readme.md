@@ -55,7 +55,6 @@ git clone https://github.com/CliffordIsaboke/Real-Time-AI-Innovators-Redis-Beyon
 cd Real-Time-AI-Innovators-Redis-Beyond-the-Cache
 
 # Run the Projects:
-
 To start the E-Commerce System, run the following command:
 
 
@@ -71,7 +70,7 @@ python ai-recommendation-ui.py
 
 - AI Recommendation Engine: The system uses Redis Vector Search to store and query document embeddings for content-based recommendations. The Sentence-Transformer model (all-MiniLM-L6-v2) is used to convert text into vector embeddings, which are stored and searched in Redis.
 
-# Running the Application
+## Running the Application
 
 # E-Commerce System:
 
