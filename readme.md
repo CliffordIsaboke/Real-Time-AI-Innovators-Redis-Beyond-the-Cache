@@ -89,28 +89,22 @@ python ai-recommendation-ui.py
 Product Management:
 
 - Search products by name or description.
-
 - View and manage product details like name, price, and stock.
 
 Order Management:
-
 - Process orders with automatic status updates.
-
 - Inventory Updates:
-
 - Real-time updates through Redis Pub/Sub.
 
 # AI Recommendation Engine
 Search by Query:
-
 - Uses the SentenceTransformer model to encode the user's query into a vector and search the Redis database for similar documents.
 
 # Results:
+- Shows a list of matching documents with their titles, content previews, and relevance score.
 
-Shows a list of matching documents with their titles, content previews, and relevance score.
 
-
-# Troubleshooting
+## Troubleshooting
 # Redis Connection Issues:
 
 If you encounter connection issues with Redis, ensure the Redis container is running:
@@ -123,14 +117,12 @@ This should show redislabs/redisearch running on port 6379. If Redis is not runn
 docker start <container_id>
 
 Missing Redis Modules:
-
-If Redis modules like RedisSearch or RedisJSON are missing, ensure that the Docker container is running redislabs/redisearch as mentioned in the setup instructions.
+- If Redis modules like RedisSearch or RedisJSON are missing, ensure that the Docker container is running redislabs/redisearch as    mentioned in the setup instructions.
 
 AI Recommendation Engine:
-
-If the AI engine doesn't return any results, check if the embeddings are properly stored in Redis. You can check this with the following Redis CLI command:
+- If the AI engine doesn't return any results, check if the embeddings are properly stored in Redis. You can check this with the following Redis CLI command:
 
 
 redis-cli HGETALL doc:doc1
-This should return the document data along with the vector embeddings.
+- This should return the document data along with the vector embeddings.
 
